@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Odin Recipes</title>
+    <style>
+      .home-banner {
+        background: url('https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1453&q=80') rgba(78, 78, 78, 0.9);
+        background-size: cover;
+        background-position: 50% 50%;
+        background-blend-mode: multiply;
+      } 
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+              <a href="#" class="navbar-brand">Odin Recipes</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Recipes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="./recipes/lasagna.html">Lasagna</a></li>
+                          <li><a class="dropdown-item" href="./recipes/hummus_pizza.html">Hummus Pizza</a></li>
+                          <li><a class="dropdown-item" href="./recipes/dads_spaghetti">Dad's Spaghetti</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+      </nav>
+      </header>
+      
+      <main>
+      
+        <section class="py-5 text-center home-banner">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light text-white">Odin Recipes</h1>
+              <p class="lead text-white">Learn some easy and awesome recipes to surprise your family!</p>
+              <p>
+                <a href="./recipes/lasagna.html" class="btn btn-primary my-2">Popular Recipe - Lasagna</a>
+              </p>
+            </div>
+          </div>
+        </section>
+      
+        <div class="py-5 bg-light">
+          <div class="container">
+      
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card" >
+                  <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4482027.jpg&w=272&h=272&c=sc&poi=face&q=60" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Lasagna</h5>
+                    <p class="card-text">This is a faster, and less expensive lasagna</p>
+                    <a href="./recipes/lasagna.html" class="btn btn-primary">View</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" >
+                  <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F01%2F22%2FHummus-Pizza-2000.jpg&w=272&h=272&c=sc&poi=%5B1040%2C1000%5D&q=60" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Hummus Pizza</h5>
+                    <p class="card-text">Pizza using hummus instead of red sauce.</p>
+                    <a href="#" class="btn btn-primary">View</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" >
+                  <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1119343.jpg&w=272&h=272&c=sc&poi=face&q=60" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dad's Spaghetti</h5>
+                    <p class="card-text">Spaghetti like never before invented. Enjoy!</p>
+                    <a href="#" class="btn btn-primary">View</a>
+                  </div>
+                </div>
+              </div>
+      
+             
+      </main>
+      
+      <footer class="text-muted py-5">
+        <div class="container">
+          <p class="float-end mb-1">
+            <a href="#">Back to top</a>
+          </p>
+          <p class="mb-1">&copy; Lim Paul Ian</p>
+        </div>
+      </footer>
+      
+      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      
+      
+            
+        </body>
+      </html>
+      

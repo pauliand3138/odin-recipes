@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Lasagna</title>
+    <style>
+        .home-banner {
+          background: url('https://images.unsplash.com/photo-1546453570-d2fcacdafbb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1452&q=80') rgba(78, 78, 78, 0.9);
+          background-size: cover;
+          background-position: 50% 50%;
+          background-blend-mode: multiply;
+        } 
+      </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+              <a href="#" class="navbar-brand">Odin Recipes</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Recipes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item active" href="#">Lasagna</a></li>
+                          <li><a class="dropdown-item" href="./recipes/hummus_pizza.html">Hummus Pizza</a></li>
+                          <li><a class="dropdown-item" href="./recipes/dads_spaghetti">Dad's Spaghetti</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+      </nav>
+      </header>
+      
+      <section class="py-5 text-center home-banner">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light text-white">Lasagna</h1>
+            <p class="lead text-white">This is a faster, and less expensive lasagna</p>
+            <p>
+              <a href="#details" class="btn btn-primary my-2">View Details</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <main>
+    
+    <div class="py-5 bg-light">
+        <div class="container">
+            <h3 id="details">Ingredients</h3>
+            <ul class="list-group">
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                  1 (16 ounce) package lasagna noodles
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                  1 pound lean ground beef
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                  salt and pepper to taste
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                  1 (16 ounce) jar spaghetti sauce
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                  1 clove garlic, minced
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                    ½ pound shredded mozzarella cheese
+                </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                    ½ pound shredded Cheddar cheese
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                    1 pint ricotta cheese
+                </li>
+              </ul>
+            
+              <hr>
+
+            <h3>Steps</h3>
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item">Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain.</li>
+                <li class="list-group-item">Preheat oven to 350 degrees F (175 degrees C). In a large skillet over medium-high heat, brown beef and season with salt and pepper; drain. Stir in spaghetti sauce and garlic and simmer 5 minutes.</li>
+                <li class="list-group-item">In a medium bowl, combine mozzarella, Cheddar and ricotta; stir well. In 9x13 inch pan, alternate layers of noodles, meat mixture and cheese mixture until pan is filled.</li>
+                <li class="list-group-item">Bake in preheated oven for 30 minutes, or until cheese is melted and bubbly.</li>
+              </ol>
+            
+        
+            <br>      
+        </div>
+    </div>
+    
+    
+             
+      </main>
+      
+      <footer class="text-muted py-5">
+        <div class="container">
+          <p class="float-end mb-1">
+            <a href="#">Back to top</a>
+          </p>
+          <p class="mb-1">&copy; Lim Paul Ian</p>
+        </div>
+      </footer>
+      
+      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      
+      
+            
+        </body>
+</html>
+      
