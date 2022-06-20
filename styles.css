@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+}
+
+.footer-link {
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
+}
+
+.footer-link:hover {
+    text-decoration-color: #0d6efd;
+}
